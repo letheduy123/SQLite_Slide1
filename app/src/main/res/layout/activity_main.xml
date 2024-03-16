@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edName"
+        android:hint="Nhập tên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+  <EditText
+      android:id="@+id/edAddress"
+      android:hint="Nhập địa chỉ"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edGender"
+        android:hint="Nhập giới tính"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Add"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnGet"
+        android:text="GET"
+        android:layout_marginTop="15dp"
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
